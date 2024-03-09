@@ -3,7 +3,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import TopImage from '@/public/images/features-top-image.png'
+import TopImage from '@/public/images/Mind Map - Frame 1.jpg'
+
 import FeaturesBg01 from '@/public/images/features-home-bg-01.png'
 import FeaturesElement01 from '@/public/images/features-home-element-01.png'
 import FeaturesElement02 from '@/public/images/features-home-element-02.png'
@@ -35,8 +36,8 @@ export default function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">How Simple works</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">How It works?</h1>
+            <p className="text-xl text-gray-600"> Start your dining adventure by scanning the QR code located on your table or at the entrance. It's quick, easy, and the gateway to a world of culinary delights.</p>
           </div>
 
           {/* Top image */}
@@ -48,12 +49,12 @@ export default function FeaturesHome() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+           {/*    <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Powerful suite of tools</h3>
                 <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
               </div>
-              {/* Tabs buttons */}
+           
               <div className="mb-8 md:mb-0">
                 <button
                   className={`text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
@@ -98,13 +99,12 @@ export default function FeaturesHome() {
                   </div>
                 </button>
               </div>
-            </div>
+            </div>  */}
 
             {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1">
+          {/*  <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1">
               <div className="transition-all">
-                <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
-                  {/* Item 1 */}
+                <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}> 
                   <Transition
                     show={tab === 1}
                     className="w-full"
@@ -123,8 +123,7 @@ export default function FeaturesHome() {
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width={500} height={158} alt="Element 02" style={{ top: '39%' }} />
                       <Image className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width={500} height={167} alt="Element 03" style={{ top: '77%' }} />
                     </div>
-                  </Transition>
-                  {/* Item 2 */}
+                  </Transition> 
                   <Transition
                     show={tab === 2}
                     className="w-full"
@@ -143,8 +142,7 @@ export default function FeaturesHome() {
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width={500} height={158} alt="Element 02" style={{ top: '40%' }} />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width={500} height={147} alt="Element 01" style={{ top: '79%' }} />
                     </div>
-                  </Transition>
-                  {/* Item 3 */}
+                  </Transition> 
                   <Transition
                     show={tab === 3}
                     className="w-full"
@@ -166,7 +164,7 @@ export default function FeaturesHome() {
                   </Transition>
                 </div>
               </div>
-            </div>
+            </div>   */}
 
           </div>
 

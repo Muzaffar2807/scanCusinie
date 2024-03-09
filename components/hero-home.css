@@ -1,0 +1,29 @@
+.main-banner{
+    display: flex; 
+    align-items: center;
+    gap: 1rem;
+}
+
+.flyer-image{ 
+    height: auto;
+    width: 35rem;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-banner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+  .main-banner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+}

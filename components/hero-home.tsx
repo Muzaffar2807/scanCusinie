@@ -1,5 +1,7 @@
-import VideoThumb from '@/public/images/hero-image-01.png'
-import ModalVideo from '@/components/modal-video'
+ 
+import Image from 'next/image'
+import FlyerImage from "@/public/images/flyer-logo.png";
+import "./hero-home.css"
 
 export default function HeroHome() {
   return (
@@ -28,30 +30,32 @@ export default function HeroHome() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your menu Digital with <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ScanCuisine</span></h1>
-            <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+          <div className="text-center pb-12 md:pb-16 main-banner">
+            <div>
+              <h2 className="text-2xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ScanCuisine</span> <br /> Elevating Your Dining Experience!</h2>
+              <div className="max-w-3xl mx-auto">
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"> At ScanCusinie, we're revolutionizing the way you explore menus and savor delectable dishes. Say goodbye to traditional paper menus and welcome the future of dining with our digital menu service!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Demo</a>
+                </div> 
               </div>
             </div>
+            </div>
+           
+            
+          <Image src={FlyerImage} alt="flyer image" className='flyer-image' priority={false}/>
           </div>
 
           {/* Hero image */}
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={768}
             thumbHeight={432}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
         </div>
 
