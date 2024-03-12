@@ -1,14 +1,12 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import TopImage from '@/public/images/mind-map.jpg'
-
-import FeaturesBg01 from '@/public/images/features-home-bg-01.png'
-import FeaturesElement01 from '@/public/images/features-home-element-01.png'
-import FeaturesElement02 from '@/public/images/features-home-element-02.png'
-import FeaturesElement03 from '@/public/images/features-home-element-03.png'
+import TopImage from '@/public/images/mind-map.jpg';
+import TopImageMobile from '@/public/images/mobile-mind-map.jpg';
+import "./feature-home.css"
 
 export default function FeaturesHome() {
   
@@ -40,10 +38,17 @@ export default function FeaturesHome() {
             <p className="text-xl text-gray-600"> Start your dining adventure by scanning the QR code located on your table or at the entrance. It's quick, easy, and the gateway to a world of culinary delights.</p>
           </div>
 
-          {/* Top image */}
-          <div className="pb-12 md:pb-16">
+          {/* Top image for desktop */}
+          <div className="pb-0 md:pb-0 mind-map-desktop">
             <Image src={TopImage} width={1104} alt="Features top" />
           </div>
+
+
+        {/* Top image for mobile */}
+          <div className="pb-0 md:pb-0 mind-map-mobile">
+            <Image src={TopImageMobile} width={1104} alt="Features top" />
+          </div>
+           
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">

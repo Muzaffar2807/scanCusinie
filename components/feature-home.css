@@ -1,0 +1,12 @@
+.mind-map-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mind-map-mobile {
+    display: block;
+  }
+  .mind-map-desktop {
+    display: none;
+  }
+}
