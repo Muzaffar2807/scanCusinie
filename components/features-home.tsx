@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import TopImage from '@/public/images/Mind Map - Frame 1.jpg'
+import TopImage from '@/public/images/mind-map.jpg'
 
 import FeaturesBg01 from '@/public/images/features-home-bg-01.png'
 import FeaturesElement01 from '@/public/images/features-home-element-01.png'
