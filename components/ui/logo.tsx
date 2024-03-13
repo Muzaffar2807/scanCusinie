@@ -16,7 +16,7 @@ export default function Logo() {
         <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
       </svg>
 
-      <h1>ScanCusinie</h1>
+      <h1>ScanCuisine</h1>
       </div>
       
     </Link>
