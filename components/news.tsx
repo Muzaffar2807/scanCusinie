@@ -6,8 +6,7 @@ import CustomerMangementImage from "@/public/images/customer-management.jpeg";
 import VisibilityImage from "@/public/images/visibility.jpeg";
 import CostImage from "@/public/images/cost.jpeg";
 import TrendsImage from "@/public/images/trends.jpeg";
-
-import "./news.css"
+ 
 
 
 export default function News() {
