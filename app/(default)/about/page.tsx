@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'About - Simple',
+  title: 'About - ScanCuisine',
   description: 'Page description',
 }
 
@@ -10,17 +10,21 @@ import Team from '@/components/team'
 import Career from '@/components/career'
 import Process from '@/components/process'
 import Cta from '@/components/cta-02'
+import TestimonialsCarousel from '@/components/testimonials-carousel'
 
 export default function About() {
   return (
     <>
       <Intro />
+ 
       <Story />
-      <Stats />
-      <Team />
+     
+        <TestimonialsCarousel />
+         <Stats />
+    {/*   <Team />
       <Career />
       <Process />
-      <Cta />
+      <Cta /> */}
     </>
   )
 }

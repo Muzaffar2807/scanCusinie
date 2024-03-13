@@ -10,7 +10,7 @@ export default function FeaturesWorld() {
         <div className="py-12 md:py-5">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-16">
+          <div className="max-w-3xl pt-12 mx-auto text-center pb-6 md:pb-16">
             <h1 className="h2 mb-4"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ScanCuisine </span>can help you scale your Business</h1>
             <p className="text-xl text-gray-600">Scancuisine can play a crucial role in helping restaurants and dhabas scale by leveraging its digital menu service. </p>
           </div>

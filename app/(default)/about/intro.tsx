@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import AboutImage from '@/public/images/about-01.jpg'
+ 
 
 export default function AboutIntro() {  
   return (
@@ -8,16 +7,14 @@ export default function AboutIntro() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">We enable developers to build amazing things</h1>
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="h1 mb-4">We enable Retaurant Menu's to go digital</h1>
             <p className="text-xl text-gray-600">
-              We have transformed product development, making it faster, simpler... better! That's why in just three years we now help more developers build projects than anyone else.
+              we're passionate about revolutionizing the dining experience through innovation and technology. Founded on the principle of enhancing convenience, engagement, and satisfaction, we strive to empower both restaurants and diners alike in the ever-evolving culinary landscape.
             </p>
           </div>
 
-          <figure className="flex justify-center items-start">
-            <Image className="rounded shadow-2xl" src={AboutImage} width={768} height={432} priority alt="About us" />
-          </figure>
+         
 
         </div>
       </div>
