@@ -51,22 +51,22 @@ export default function Header() {
                <Dropdown title="Business Type">
               
                  <li>
-                  <Link href="/documentation" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Dhaba's</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Dhaba's</Link>
                 </li>
                 <li>
-                  <Link href="/documentation" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Restaurants</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Restaurants</Link>
                 </li>
                 <li>
-                  <Link href="/support" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Cafe's</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Cafe's</Link>
                 </li>
                 <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Cinema Halls</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Cinema Halls</Link>
                 </li>
                  <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Bakery's</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Bakery's</Link>
                 </li>
                  <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Ice Cream Center's</Link>
+                  <Link href="" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Ice Cream Center's</Link>
                 </li>
               </Dropdown> 
               

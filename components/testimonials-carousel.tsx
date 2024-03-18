@@ -24,7 +24,14 @@ export default function TestimonialsCarousel() {
     {
       img: KingsImage,
       alt: 'Kings Family Dhaba',
-      quote: '“ Working with ScanCuisine has been a game-changer for us at Kings Family Dhaba. Their digital menu platform has streamlined our operations and enhanced the dining experience for our customers. “',
+      quote: '“Working with ScanCuisine has been a game-changer for us at Kings Family Dhaba. Their digital menu platform has streamlined our operations and enhanced the dining experience for our customers. “',
+      name: 'Kings Family Dhaba',
+     
+    },  
+     {
+      img: KingsImage,
+      alt: 'Kings Family Dhaba',
+      quote: '“Working with ScanCuisine has been a game-changer for us at Kings Family Dhaba. Their digital menu platform has streamlined our operations and enhanced the dining experience for our customers. “',
       name: 'Kings Family Dhaba',
      
     },  
@@ -44,9 +51,9 @@ export default function TestimonialsCarousel() {
     if (testimonials.current && testimonials.current.parentElement) testimonials.current.parentElement.style.height = `${testimonials.current.clientHeight}px`
   }
 
-  useEffect(() => {
+ /*  useEffect(() => {
     heightFix()
-  }, [])  
+  }, [])   */
 
   return (
     <section className="relative">
@@ -78,19 +85,26 @@ export default function TestimonialsCarousel() {
                     <Transition
                       key={index}
                       show={active === index}
-                      className="w-full text-center px-12 py-8 pt-20 mx-4 md:mx-0"
+                      className="w-full text-center px-12 py-8 h-full   mx-4 md:mx-0"
                       enter="transition ease-in-out duration-700 transform order-first"
                       enterFrom="opacity-0 -translate-y-8"
                       enterTo="opacity-100 scale-100"
                       leave="transition ease-in-out duration-300 transform absolute"
                       leaveFrom="opacity-100 translate-y-0"
                       leaveTo="opacity-0 translate-y-8"
-                      beforeEnter={() => heightFix()}
+                    //  beforeEnter={() => heightFix()}
                       unmount={false}
                     >
-                      <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2" style={{ background: '#000', borderRadius: '50%', width: '15%', height: '38%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                     {/*  <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2" style={{ background: '#000', borderRadius: '50%', width: '15%', height: '38%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                        
                         <Image className="relative rounded-full" src={item.img} width={120} height={80} alt={item.alt} /> 
+                      </div> */} 
+
+                   
+                         <div className="justify-center flex py-2"  >
+                       
+                        <Image className="relative rounded-full" src={item.img} width={120} height={80} alt={item.alt} /> 
+               
                       </div>
                       <blockquote className="text-xl font-medium mb-4">{item.quote}</blockquote>
                       <cite className="block font-bold text-lg not-italic mb-1">{item.name}</cite>

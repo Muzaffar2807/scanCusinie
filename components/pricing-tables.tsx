@@ -34,12 +34,12 @@ export default function PricingTables() {
                 <button
                   className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${!annual && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setAnnual(true); }}
-                >Bill Monthly <span className="text-green-500">-20%</span>
+                >Bill Monthly
                 </button>
                 <button
                   className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${annual && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setAnnual(false); }}
-                >Bill Yearly</button>
+                >Bill Yearly  <span className="text-green-500">-20%</span></button>
               </div>
             </div>
 
@@ -53,7 +53,7 @@ export default function PricingTables() {
                   <div className="text-lg font-bold mb-1">Basic</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-3xl font-bold">₹</span>
-                    <span className="text-4xl font-bold">{annual ? '499' : '5,500'}</span>
+                    <span className="text-4xl font-bold">{annual ? '499' : '4,800'}</span>
                     <span className="text-gray-600 pl-2">{annual ? '/monthly' : '/yearly' }</span>
                   </div>
                   <div className="text-lg text-gray-800">Ideal for small restaurants and dhabas looking to digitize their menus and enhance the dining experience.</div>
@@ -104,7 +104,7 @@ export default function PricingTables() {
                   <div className="text-lg font-bold mb-1">Standard</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-3xl font-bold">₹</span>
-                    <span className="text-4xl font-bold">{annual ? '1,000' : '11,500'}</span>
+                    <span className="text-4xl font-bold">{annual ? '999' : '9,600'}</span>
                     <span className="text-gray-600 pl-2">{annual ? '/monthly' : '/yearly' }</span>
                   </div>
                   <div className="text-lg text-gray-800">Perfect for mid-sized restaurants seeking more advanced features to streamline operations and engage customers</div>
@@ -165,7 +165,7 @@ export default function PricingTables() {
                   <div className="text-lg font-bold mb-1">Premium</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-3xl font-bold">₹</span>
-                    <span className="text-4xl font-bold">{annual ? '2,000' : '23,000'}</span>
+                    <span className="text-4xl font-bold">{annual ? '1,999' : '19,200'}</span>
                     <span className="text-gray-600 pl-2">{annual ? '/monthly' : '/yearly' }</span>
                   </div>
                   <div className="text-lg text-gray-800">For larger teams that need to create, and collaborate.</div>

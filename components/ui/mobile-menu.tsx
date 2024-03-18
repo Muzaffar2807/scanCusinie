@@ -78,22 +78,22 @@ export default function MobileMenu() {
               <span className="flex text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Business Type</span>
               <ul className="pl-4">
                 <li>
-                  <Link href="/documentation" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Dhaba's</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Dhaba's</Link>
                 </li>
                 <li>
-                  <Link href="/support" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Restaurants</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Restaurants</Link>
                 </li>
                 <li>
-                  <Link href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Cafe's</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Cafe's</Link>
                 </li>
                  <li>
-                  <Link href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Cinema Halls</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Cinema Halls</Link>
                 </li>
                  <li>
-                  <Link href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Baker's</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Baker's</Link>
                 </li>
                  <li>
-                  <Link href="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Ice Cream Stations</Link>
+                  <Link href="" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2" onClick={() => setMobileNavOpen(false)}>Ice Cream Stations</Link>
                 </li>
               </ul>
             </li>
