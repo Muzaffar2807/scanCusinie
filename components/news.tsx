@@ -27,7 +27,7 @@ export default function News() {
                 <header>
                   <a href="#0" className="block mb-6 align-middle justify-center">
                     <figure className="relative h-0 pb-9/16  justify-center overflow-hidden translate-z-0 rounded align-middle">
-                      <Image className="svg-images h-full w-full absolute inset-0  justify-center object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={MenuManagementImage} width={300} height={150} alt="News 03" />
+                      <Image className="svg-images h-full w-full absolute inset-0  justify-center object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={MenuManagementImage} width={300} height={250} alt="News 03" style={{ height:'200px'}} />
                     </figure>
                   </a> 
                   <h1 className="text-xl text-center  font-bold leading-snug tracking-tight">
@@ -50,7 +50,7 @@ export default function News() {
                    Streamlined Operations
                   </h1>
 
-                  <h3 className='py-4'>By digitizing menus, Scancuisine streamlines the ordering process and reduces the reliance on traditional paper menus. This efficiency extends to the backend, allowing restaurants to manage orders, track customer preferences, and optimize inventory seamlessly.</h3>
+                  <h3 className='py-4'>By digitizing menus, Scancuisine streamlines the ordering process and reduces the reliance on traditional paper menus. This efficiency extends to the backend, allowing restaurants to manage orders and optimize inventory seamlessly.</h3>
                 </header> 
               </article>
 
@@ -59,14 +59,14 @@ export default function News() {
                 <header>
                   <a href="#0" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <Image className="svg-images  absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={CustomerMangementImage} width={352} height={198} alt="News 03" />
+                      <Image className="svg-images  absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={CustomerMangementImage} width={352} height={198} style={{ marginTop: '1.5rem'}} alt="News 03" />
                     </figure>
                   </a> 
                   <h1 className="text-xl   font-bold leading-snug tracking-tight">
                     Customer Engagement
                   </h1>
 
-                   <h3 className='py-4  '>The interactive and visual nature of Scancuisine's digital menus enhances customer engagement. Restaurants can leverage this platform to showcase featured dishes, share chef recommendations, and engage with customers through enticing visuals and detailed descriptions.</h3>
+                   <h3 className='py-4  '>The interactive and visual nature of Scancuisine's digital menus enhances customer engagement. Restaurants can leverage this platform to showcase featured dishes, share chef recommendations, and engage with customers.</h3>
                 </header> 
               </article>
 
@@ -102,7 +102,7 @@ export default function News() {
                     Cost Efficiency
                   </h1>
 
-                   <h3 className='py-4 '>Going digital with Scancuisine reduces costs associated with printing and distributing physical menus. This cost efficiency can contribute to the financial health of restaurants and dhabas, freeing up resources for other aspects of business expansion.</h3>
+                   <h3 className='py-4 '>Going digital with Scancuisine reduces costs associated with printing and distributing physical menus. This cost efficiency can contribute to the financial health of restaurants and dhabas, freeing up resources for other aspects of business.</h3>
                 </header> 
               </article>
 
