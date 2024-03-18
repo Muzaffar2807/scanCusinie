@@ -8,8 +8,8 @@ export default function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 mb-4">We enable Restaurants Menu's to go Digital</h1>
-            <p className="text-xl text-gray-600">
+            <h2 className="h1 mb-4  md:text-3xl ">We Digitize Menus.</h2>
+            <p className="md:text-xl sm:text-sm sm:px-2 md:px-0 text-gray-600 mb-8">
               we're passionate about revolutionizing the dining experience through innovation and technology. Founded on the principle of enhancing convenience, engagement, and satisfaction, we strive to empower both restaurants and diners alike in the ever-evolving culinary landscape.
             </p>
           </div>

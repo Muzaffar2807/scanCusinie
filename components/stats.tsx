@@ -12,8 +12,8 @@ export default function Stats() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Growing Digitally</h1>
-            <p className="text-xl text-gray-600">In today's digital age, growth opportunities abound for businesses willing to embrace innovation and technology. We are committed to leveraging digital strategies to drive growth and expand our reach. Through targeted marketing, strategic partnerships, and continuous technological advancements, we aim to position ourselves as a leader in the digital dining space, both locally and globally..</p>
+            <h1 className="h2 mb-4  md:text-3xl">Growing Digitally</h1>
+            <p className="md:text-xl sm:text-sm sm:px-2 md:px-0 text-gray-600 mb-8">In today's digital age, growth opportunities abound for businesses willing to embrace innovation and technology. We are committed to leveraging digital strategies to drive growth and expand our reach. Through targeted marketing, strategic partnerships, and continuous technological advancements, we aim to position ourselves as a leader in the digital dining space, both locally and globally..</p>
           </div>
 
           {/* World illustration */}

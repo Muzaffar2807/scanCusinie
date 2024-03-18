@@ -13,10 +13,10 @@ export default function PricingTables() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 mb-4" data-aos="zoom-y-out"> Our Flexible Plans  
+            <h3 className="h1 mb-4 md:text-3xl " data-aos="zoom-y-out"> Our Flexible Plans  
 
-</h1>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">Discover our flexible pricing plans tailored to meet the unique needs of your restaurant or dhaba. Whether you're a small eatery or a bustling restaurant chain, we have a plan to suit your requirements and budget.</p>
+</h3>
+            <p className="md:text-xl sm:text-sm sm:px-2 md:px-0 text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Discover our flexible pricing plans tailored to meet the unique needs of your restaurant or dhaba. Whether you're a small eatery or a bustling restaurant chain, we have a plan to suit your requirements and budget.</p>
           </div>
 
           {/* Pricing tables */}

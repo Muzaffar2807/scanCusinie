@@ -32,7 +32,7 @@ export default function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16 main-banner">
             <div>
-              <h2 className="text-2xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ScanCuisine</span> <br /> Elevating Your Dining Experience!</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Welcome to <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">ScanCuisine</span> <br /> Elevating Your Dining Experience!</h2>
               <div className="max-w-3xl mx-auto">
               <p className="md:text-xl sm:text-sm sm:px-2 md:px-0 text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"> At ScanCusinie, we're revolutionizing the way you explore menus and savor delectable dishes. Say goodbye to traditional paper menus and welcome the future of dining with our digital menu service!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">

@@ -22,8 +22,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Operational Process</h2>
-            <p className="text-xl text-gray-600">Unveil the operational process behind your dining experience with our seamless Product</p>
+            <h2 className="h2 mb-4 md:text-3xl">Operational Process</h2>
+            <p className="md:text-xl sm:text-sm sm:px-2 md:px-0 text-gray-600 mb-8">Unveil the operational process behind your dining experience with our seamless Product</p>
           </div>
 
           {/* Items */}

@@ -65,7 +65,7 @@ export default function TestimonialsCarousel() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Trusted by over 10+ Restaurants and Dhaba's </h2>
+            <h2 className="h2 mb-4 md:text-3xl">Trusted by over 10+ Restaurants and Dhaba's </h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">We take pride in delivering exceptional service and exceeding the expectations of our clients.</p>
           </div>
 

@@ -34,8 +34,8 @@ export default function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">How It works?</h1>
-            <p className="text-xl text-gray-600"> Start your dining adventure by scanning the QR code located on your table or at the entrance. It's quick, easy, and the gateway to a world of culinary delights.</p>
+            <h1 className="h2 mb-4 md:text-3xl">How It works?</h1>
+            <p className="  md:text-xl sm:text-sm  md:px-0  mb-8 text-gray-600"> Start your dining adventure by scanning the QR code located on your table or at the entrance. It's quick, easy, and the gateway to a world of culinary delights.</p>
           </div>
 
           {/* Top image for desktop */}
